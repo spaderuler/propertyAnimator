@@ -19,11 +19,9 @@ class WidgetCell: UITableViewCell {
         }
     }
     
-    
     override func awakeFromNib() {
         self.backgroundColor = UIColor.clear
         widgetView.layer.masksToBounds = true
         widgetView.layer.cornerRadius = 12
-//        widgetView.backgroundColor = UIColor.red
     }
 }

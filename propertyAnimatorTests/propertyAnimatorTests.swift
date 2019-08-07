@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import UIViewPropertyAnimator
+@testable import propertyAnimator
 
 class UIViewPropertyAnimatorTests: XCTestCase {
 

@@ -9,7 +9,6 @@
 import UIKit
 
 protocol WidgetsOwnerProtocol {
-
     func startPreview(for: UIView)
     func updatePreview(percent: CGFloat)
     func finishPreview()

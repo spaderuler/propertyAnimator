@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BD703DD522F7D30D0040F6E7 /* AnimatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD703DD422F7D30D0040F6E7 /* AnimatorFactory.swift */; };
 		BD703DD722F7DE100040F6E7 /* WidgetsOwnerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD703DD622F7DE100040F6E7 /* WidgetsOwnerProtocol.swift */; };
+		BD7AAEB222F962E700841BAA /* PresentTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7AAEB122F962E700841BAA /* PresentTransition.swift */; };
 		BD97381A22F40B1200D1A700 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD97381922F40B1200D1A700 /* AppDelegate.swift */; };
 		BD97381F22F40B1200D1A700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD97381D22F40B1200D1A700 /* Main.storyboard */; };
 		BD97382122F40B1400D1A700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD97382022F40B1400D1A700 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 /* Begin PBXFileReference section */
 		BD703DD422F7D30D0040F6E7 /* AnimatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatorFactory.swift; sourceTree = "<group>"; };
 		BD703DD622F7DE100040F6E7 /* WidgetsOwnerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsOwnerProtocol.swift; sourceTree = "<group>"; };
+		BD7AAEB122F962E700841BAA /* PresentTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentTransition.swift; sourceTree = "<group>"; };
 		BD97381622F40B1200D1A700 /* propertyAnimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = propertyAnimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD97381922F40B1200D1A700 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD97381E22F40B1200D1A700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				BD97384A22F40FBF00D1A700 /* SettingsViewController.swift */,
 				BD703DD422F7D30D0040F6E7 /* AnimatorFactory.swift */,
 				BD703DD622F7DE100040F6E7 /* WidgetsOwnerProtocol.swift */,
+				BD7AAEB122F962E700841BAA /* PresentTransition.swift */,
 			);
 			name = LockScreenViewController;
 			path = propertyAnimator/LockScreenViewController;
@@ -301,6 +304,7 @@
 				BD703DD522F7D30D0040F6E7 /* AnimatorFactory.swift in Sources */,
 				BD97384D22F41A4300D1A700 /* WidgetCell.swift in Sources */,
 				BD97385422F435DC00D1A700 /* IconCell.swift in Sources */,
+				BD7AAEB222F962E700841BAA /* PresentTransition.swift in Sources */,
 				BD97385222F42D1200D1A700 /* WidgetView.swift in Sources */,
 				BD703DD722F7DE100040F6E7 /* WidgetsOwnerProtocol.swift in Sources */,
 				BD97384922F40F7800D1A700 /* LockScreenViewController.swift in Sources */,
